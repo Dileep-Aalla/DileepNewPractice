@@ -12,7 +12,7 @@ describe('Drop Downs',()=>{
         cy.visit('https://testautomationpractice.blogspot.com/')
     
          cy.get("label[for='colors']").contains('Colors:')
-         cy.get('#colors').select('Red').should('contain','Red')
+         cy.get('#colors').select('Red').should('contain','Yellow')
     
     
       
